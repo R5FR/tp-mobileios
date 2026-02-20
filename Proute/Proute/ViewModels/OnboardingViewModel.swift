@@ -1,4 +1,5 @@
 import SwiftUI
+import Combine
 
 /// ViewModel pour l'écran d'onboarding (slider)
 final class OnboardingViewModel: ObservableObject {

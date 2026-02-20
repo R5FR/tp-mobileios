@@ -1,4 +1,5 @@
 import SwiftUI
+import Combine
 
 /// ViewModel pour l'écran liste des fruits
 final class FruitListViewModel: ObservableObject {
