@@ -1,18 +1,14 @@
 import SwiftUI
 
+/// Modèle représentant un fruit avec ses informations détaillées
 struct Fruit: Identifiable {
     let id = UUID()
     let title: String
     let headline: String
+    let image: String
+    let gradientColors: [Color]
     let description: String
-    let imageName: String
-    let gradientColorNames: [String]
-}
-
-extension Fruit {
-    var gradientColors: [Color] {
-        gradientColorNames.map { Color($0) }
-    }
+    let nutrition: [String]
 }
 
 enum AppStorageKeys {

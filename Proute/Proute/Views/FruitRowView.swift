@@ -7,7 +7,7 @@ struct FruitRowView: View {
         HStack(spacing: 14) {
             ZStack {
                 LinearGradient(colors: fruit.gradientColors, startPoint: .topLeading, endPoint: .bottomTrailing)
-                Image(fruit.imageName)
+                Image(fruit.image)
                     .resizable()
                     .scaledToFit()
                     .padding(8)

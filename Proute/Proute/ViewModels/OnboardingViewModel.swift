@@ -1,5 +1,6 @@
-import Foundation
+import SwiftUI
 
+/// ViewModel pour l'écran d'onboarding (slider)
 final class OnboardingViewModel: ObservableObject {
     @Published var items: [Fruit]
 

@@ -17,7 +17,7 @@ struct ContentView: View {
                 VStack(spacing: 24) {
                     Spacer()
 
-                    Image(fruit.imageName)
+                    Image(fruit.image)
                         .resizable()
                         .scaledToFit()
                         .frame(maxWidth: 260)
